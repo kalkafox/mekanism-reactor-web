@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import { Suspense } from "react";
 
-const MainComponent = dynamic(() => import("../components/main"), {
+const MainComponent = dynamic(() => import("../components/Main"), {
   ssr: false,
   suspense: true,
 });
